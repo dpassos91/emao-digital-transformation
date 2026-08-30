@@ -28,8 +28,6 @@ export default function HeroImage({
   }, []);
 
   useEffect(() => {
-    setIsLoaded(false);
-
     const image = imageRef.current;
 
     if (image?.complete && image.naturalWidth > 0) {
