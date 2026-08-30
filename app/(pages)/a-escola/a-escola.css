@@ -1,0 +1,121 @@
+.school-story {
+  padding: 110px 32px;
+  background: var(--cream);
+}
+
+.school-story-grid,
+.school-approach-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  gap: 100px;
+  align-items: start;
+}
+
+.school-story-heading {
+  position: sticky;
+  top: 40px;
+}
+
+.school-story-heading h2,
+.school-approach-heading h2 {
+  margin: 0;
+  font-size: clamp(40px, 4vw, 60px);
+  line-height: 1.04;
+}
+
+.school-story-intro {
+  margin: 26px 0 0;
+  max-width: 430px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.school-story-copy {
+  display: grid;
+  gap: 24px;
+}
+
+.school-story-copy p,
+.school-approach-copy > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.82;
+}
+
+.school-story-copy p:first-child {
+  color: var(--navy);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.school-story-copy strong {
+  color: var(--navy);
+}
+
+.school-approach {
+  padding: 110px 32px;
+  background: var(--paper);
+}
+
+.school-approach-copy {
+  display: grid;
+  gap: 24px;
+}
+
+.school-values {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.school-values p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.school-values span {
+  display: grid;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e5f1ff;
+  color: var(--blue);
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .school-story,
+  .school-approach {
+    padding: 72px 20px;
+  }
+
+  .school-story-grid,
+  .school-approach-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .school-story-heading {
+    position: static;
+  }
+
+  .school-story-copy p,
+  .school-approach-copy > p {
+    font-size: 16px;
+  }
+
+  .school-story-copy p:first-child {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "emao-portfolio-example",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-28",
+  "d1_databases": [{ "binding": "DB", "database_name": "YOUR_DATABASE_NAME", "database_id": "YOUR_DATABASE_ID" }],
+  "vars": { "NEXT_PUBLIC_TURNSTILE_SITE_KEY": "YOUR_PUBLIC_SITE_KEY" }
+}

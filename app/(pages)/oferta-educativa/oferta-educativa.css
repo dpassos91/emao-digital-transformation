@@ -1,0 +1,324 @@
+/* =========================
+   Oferta Educativa
+   ========================= */
+
+.offer-section-heading {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.offer-section-heading h2,
+.offer-learning-heading h2,
+.offer-preparation h2{
+  margin: 0;
+  font-size: clamp(40px, 4vw, 58px);
+  line-height: 1.04;
+}
+
+.offer-section-heading > p:last-child,
+.offer-learning-heading > p:last-child {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   O que podes aprender
+   ========================= */
+
+.offer-learning {
+  padding: 110px 32px;
+  background: var(--paper);
+}
+
+.offer-learning-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: 86px;
+  align-items: start;
+}
+
+.offer-learning-heading {
+  position: sticky;
+  top: 40px;
+}
+
+.offer-learning-heading > p:last-child {
+  max-width: 430px;
+}
+
+.offer-learning-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.offer-learning-card {
+  min-height: 280px;
+  padding: 32px;
+  border: 1px solid rgba(9, 38, 83, 0.08);
+  border-radius: 25px;
+  background: var(--cream);
+}
+
+.offer-learning-card:nth-child(2) {
+  background: #edf6ff;
+}
+
+.offer-learning-card-dark {
+  background: var(--navy);
+  color: #fff;
+}
+
+.offer-learning-card-wide {
+  grid-column: 1 / -1;
+  min-height: 190px;
+}
+
+.offer-learning-label {
+  margin: 0 0 30px;
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.offer-learning-card-dark .offer-learning-label {
+  color: #9dceff;
+}
+
+.offer-learning-card h3 {
+  margin: 0 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px, 2.2vw, 33px);
+  line-height: 1.08;
+}
+
+.offer-learning-card > p:last-child {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.offer-learning-card-dark > p:last-child {
+  color: #c8d5e6;
+}
+
+.offer-learning-items {
+  margin: 22px 0 0;
+  padding-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 12px;
+
+  border-top: 1px solid var(--line);
+}
+
+.offer-learning-items span {
+  color: var(--navy);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.offer-learning-items-coimbra {
+  grid-template-columns: 1fr;
+}
+
+/* =========================
+   Modalidades
+   ========================= */
+
+.offer-modalities {
+  padding: 96px 32px;
+  background: #edf6ff;
+}
+
+.offer-modalities-list {
+  border-top: 1px solid rgba(9, 38, 83, 0.14);
+}
+
+.offer-modalities-list article {
+  min-height: 132px;
+  padding: 28px 4px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 50px;
+  align-items: center;
+  border-bottom: 1px solid rgba(9, 38, 83, 0.14);
+}
+
+.offer-modalities-list h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.offer-modalities-list p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.offer-modalities-list strong {
+  color: var(--navy);
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.offer-modalities-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--blue);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.offer-modalities-list a span {
+  font-size: 22px;
+  transition: transform 0.2s ease;
+}
+
+.offer-modalities-list a:hover span {
+  transform: translateX(4px);
+}
+
+
+/* =========================
+   Preparação especializada
+   ========================= */
+
+.offer-preparation {
+  padding: 96px 32px;
+  background: var(--paper);
+}
+
+.offer-preparation-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  gap: 100px;
+  align-items: start;
+}
+
+.offer-preparation-copy > p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.offer-preparation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 30px;
+  margin-top: 30px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.offer-preparation-list p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.offer-preparation-list span {
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #e5f1ff;
+  color: var(--blue);
+  font-size: 13px;
+}
+
+
+/* =========================
+   Responsive
+   ========================= */
+
+@media (max-width: 1000px) {
+  .offer-learning-layout,
+  .offer-preparation-grid {
+    gap: 55px;
+  }
+
+  .offer-learning-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-learning-card-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .offer-learning,
+  .offer-modalities,
+  .offer-preparation {
+    padding: 72px 20px;
+  }
+
+  .offer-section-heading {
+    margin-bottom: 34px;
+  }
+
+  .offer-section-heading h2,
+  .offer-learning-heading h2,
+  .offer-preparation h2 {
+    font-size: 40px;
+  }
+
+  .offer-section-heading > p:last-child,
+  .offer-learning-heading > p:last-child,
+  .offer-preparation-copy > p {
+    font-size: 16px;
+  }
+
+  .offer-learning-layout,
+  .offer-preparation-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .offer-learning-heading {
+    position: static;
+  }
+
+  .offer-learning-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-learning-card,
+  .offer-learning-card-wide {
+    min-height: 0;
+    padding: 28px;
+  }
+
+  .offer-modalities-list article {
+    min-height: 0;
+    padding: 25px 0;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .offer-modalities-list strong,
+  .offer-modalities-list a {
+    white-space: normal;
+  }
+
+  .offer-preparation-list {
+    display: grid;
+    gap: 14px;
+  }
+}
