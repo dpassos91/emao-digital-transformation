@@ -8,7 +8,9 @@ The public portfolio snapshot of the website for **Escola de Música dos Antigos
 
 This is not only a website implementation. It is the first product delivered within a wider digital transformation programme for the school: turning operational knowledge, user needs and an informal enquiry process into a clear, secure and measurable digital service.
 
-**V1 launched on 28 August 2026:** [emao.pt](https://emao.pt)\n\n> This repository contains a clean, security-reviewed portfolio snapshot. Production history, infrastructure identity and submitted data remain in a separate private repository.
+**V1 launched on 28 August 2026:** [emao.pt](https://emao.pt)
+
+> This repository contains a clean, security-reviewed portfolio snapshot. Production history, infrastructure identity and submitted data remain in a separate private repository.
 
 ## Project at a glance
 
@@ -157,11 +159,11 @@ app/                         pages, layouts, components, styles and API
 db/                          D1 connection and database schema
 docs/                        project, product and delivery documentation
 drizzle/                     SQL migrations and Drizzle metadata
-public/                      images, logos, icons and public documents
+public/                      neutral portfolio assets and public icons
 scripts/                     installation, build and validation scripts
 tests/                       automated tests
 worker/                      Cloudflare Worker entry point
-wrangler.production.jsonc    production deployment configuration
+wrangler.example.jsonc       sanitised deployment configuration example
 ```
 
 ## Data and secrets
