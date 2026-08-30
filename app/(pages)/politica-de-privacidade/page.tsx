@@ -201,8 +201,8 @@ export default function PrivacyPolicyPage() {
               <p>
                 Para exercer estes direitos ou esclarecer qualquer questão
                 relacionada com dados pessoais, o contacto pode ser feito através de{" "}
-                <a href="mailto:egvfcoimbra@gmail.com">
-                  egvfcoimbra@gmail.com
+                <a href="mailto:geral@emao.pt">
+                  geral@emao.pt
                 </a>
                 .
               </p>
