@@ -13,6 +13,22 @@ Live service: [emao.pt](https://emao.pt)
 
 > This repository is a clean, security-reviewed portfolio snapshot. Production history, infrastructure identity, submitted data and operational configuration remain in a separate private repository.
 
+## From public website to operational workflow
+
+The product evolved from a clearer public experience into a connected enquiry and lead-management workflow.
+
+![EMAO public website homepage](docs/assets/Captura%20de%20ecr%C3%A3%202026-09-25%20114353.png)
+
+*V1 established a clear public journey around the school's offer and a prominent free-trial call to action.*
+
+![EMAO trial lesson enquiry form](docs/assets/Captura%20de%20ecr%C3%A3%202026-09-25%20114422.png)
+
+*The enquiry journey captures structured contact, learner, interest and availability information so the next operational step starts with usable data.*
+
+![EMAO protected lead-management interface](docs/assets/Captura%20de%20ecr%C3%A3%202026-09-25%20114503.png)
+
+*V1.1 extended the service into day-to-day operations, with lifecycle states, aggregate counts, search and filtering, and manual lead creation in a protected administrative interface.*
+
 ## Project at a glance
 
 | | |
